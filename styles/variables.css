@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: black url("../imagens/fundo-madeira.jpg") center no-repeat fixed;
+    background-size: cover;
+}
