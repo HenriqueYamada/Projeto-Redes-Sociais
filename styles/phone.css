@@ -5,7 +5,8 @@
     transform: translate(-50%, -50%);
 }
 
-.phone img{
+.phone #image-phone{
+    position: relative;
     height: 500px;
 }
 
@@ -19,10 +20,6 @@
 .phone__content .tela-do-celular{
     height: 380px;
     width: 216px;
-}
-
-#section-base-social-medias{
-    
 }
 
 .sidebar-navigation{
