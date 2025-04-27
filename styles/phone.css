@@ -8,6 +8,7 @@
 .phone #image-phone{
     position: relative;
     height: 500px;
+    width: 250px;
 }
 
 .phone__content{
@@ -19,7 +20,7 @@
 
 .phone__content .tela-do-celular{
     height: 380px;
-    width: 216px;
+    max-width: 216px;
 }
 
 .sidebar-navigation{
@@ -36,12 +37,13 @@
 .social-media-buttons img{
     position: fixed;
     width: 50px;
-    border-radius: 100%;
-    box-shadow: 2px 2px 5px 0px black;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.411);
 }
 
 .social-media-buttons img:hover{
     border: 1px solid white;
-    transition: 1s;
+    transition: transform 1s, border 1s;
     transform: translate(-7%, -7%);
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.459);
 }
